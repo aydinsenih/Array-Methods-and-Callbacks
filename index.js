@@ -111,7 +111,7 @@ function getCountryWins(data, teamInitials) {
     },0);
     return wins;
 }
-console.log(getCountryWins(fifaData,"TUR"));
+// console.log(getCountryWins(fifaData,"TUR"));
 
 
 
@@ -135,7 +135,7 @@ function getGoals(data, getFinalsCB) {
     return goalsArr;
 }
 
-console.log(getGoals(fifaData, getFinals));
+// console.log(getGoals(fifaData, getFinals));
 
 /* 💪💪💪💪💪 Stretch 3: 💪💪💪💪💪
 Write a function called badDefense() that accepts a parameter `data` and calculates the team with the most goals scored against them per appearance (average goals against) in the World Cup finals */
