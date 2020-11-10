@@ -132,7 +132,6 @@ function getGoals(data, getFinalsCB) {
         }
         return goalcount;
     },{});
-
     return goalsArr;
 }
 
